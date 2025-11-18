@@ -3,14 +3,14 @@ import HomePage from "./shop/HomePage";
 import AboutUs from "./shop/AboutUs";
 import Products from "./shop/Products";
 import SingleProduct from './shop/SingleProduct';
-import Budget from "./components/Budget";
+import { BudgetProvider } from "./components/Budget";
 
 function App() {
 
 
   return (
     <>
-      <Budget.Provider value={{ budgetMode, setBudgetMode }}>
+      <Budget.Provider>
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<HomePage />} />
