@@ -1,5 +1,7 @@
 import { NavLink, Link } from "react-router-dom";
 import { useContext } from "react";
+import Budget from "./Budget";
+
 export default function Header() {
 
     return (
