@@ -1,0 +1,26 @@
+@import url('bootstrap');
+@import url('bootstrap-icons');
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.card-title {
+    height: 120px;
+}
+
+footer {
+    background-color: rgb(255, 132, 153);
+    color: white;
+    min-height: 500px;
+}
+
+.card-home {
+    background-image: url('./assets/hero.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
