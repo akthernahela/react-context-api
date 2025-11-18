@@ -3,6 +3,7 @@ import { useContext } from "react";
 import Budget from "./Budget";
 
 export default function Header() {
+    const { budgetMode, setBudgetMode } = useContext();
 
     return (
         <>
