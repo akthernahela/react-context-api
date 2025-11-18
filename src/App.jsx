@@ -10,16 +10,16 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/aboutUs' element={<AboutUs />} />
-          <Route path='/products' element={<Products />} />
-          <Route path='/products/:id' element={<SingleProduct />} />
-        </Routes>
-      </BrowserRouter>
-
-
+      <Budget.provider>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/aboutUs' element={<AboutUs />} />
+            <Route path='/products' element={<Products />} />
+            <Route path='/products/:id' element={<SingleProduct />} />
+          </Routes>
+        </BrowserRouter>
+      </Budget.provider>
     </>
   )
 }
