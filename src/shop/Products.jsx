@@ -250,7 +250,7 @@ export default function Products() {
     ]
     const { budgetMode } = useContext(Budget);
     const [lowCost, setLowCost] = useState(products);
-    useEffect()
+    useEffect(() => { }, [budgetMode])
     return (
         <>
             <Header />
