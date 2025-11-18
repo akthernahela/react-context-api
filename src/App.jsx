@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Budget.provider>
+      <Budget.Provider>
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<HomePage />} />
@@ -19,7 +19,7 @@ function App() {
             <Route path='/products/:id' element={<SingleProduct />} />
           </Routes>
         </BrowserRouter>
-      </Budget.provider>
+      </Budget.Provider>
     </>
   )
 }
