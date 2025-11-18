@@ -257,7 +257,7 @@ export default function Products() {
         } else {
             setLowCost(products);
         }
-    }, [budgetMode])
+    }, [budgetMode]);
     return (
         <>
             <Header />
@@ -270,7 +270,7 @@ export default function Products() {
                 <hr />
                 <div className="row d-flex flex-wrap justify-content-around">
                     {
-                        products.map(product => (
+                        lowCost.map(product => (
                             <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                                 <div className="card h-100 d-flex flex-column" key={product.id}>
                                     <img src={product.image} className="card-img-top p-3 mx-auto" alt="" />
