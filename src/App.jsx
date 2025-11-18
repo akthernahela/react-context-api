@@ -3,6 +3,7 @@ import HomePage from "./shop/HomePage";
 import AboutUs from "./shop/AboutUs";
 import Products from "./shop/Products";
 import SingleProduct from './shop/SingleProduct';
+import Budget from "./Budget";
 
 function App() {
 
