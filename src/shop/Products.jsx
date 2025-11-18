@@ -271,8 +271,8 @@ export default function Products() {
                 <div className="row d-flex flex-wrap justify-content-around">
                     {
                         lowCost.map(product => (
-                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                                <div className="card h-100 d-flex flex-column" key={product.id}>
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3" key={product.id}>
+                                <div className="card h-100 d-flex flex-column">
                                     <img src={product.image} className="card-img-top p-3 mx-auto" alt="" />
                                     <div className="card-body d-flex flex-column">
                                         <h5 className="card-title">{product.title}</h5>
