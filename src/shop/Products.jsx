@@ -3,7 +3,7 @@ import Main from "../components/Main";
 import Footer from "../components/Footer";
 import { Link } from 'react-router-dom';
 import Budget from "../components/Budget";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 
 export default function Products() {
     const products = [
