@@ -251,7 +251,9 @@ export default function Products() {
     const { budgetMode } = useContext(Budget);
     const [lowCost, setLowCost] = useState(products);
     useEffect(() => {
-        if (budgetMode) { }
+        if (budgetMode) {
+            const filterProduct = products.filter(product => product.price <= 30);
+        }
     }, [budgetMode])
     return (
         <>
