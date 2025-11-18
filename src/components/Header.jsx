@@ -21,9 +21,9 @@ export default function Header() {
                                 <Link className="nav-link" aria-current="page" to="/products">Products</Link>
                             </li>
                         </ul>
-                        <form className="d-flex justify-" role="search">
+                        <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-light" type="submit">Search</button>
+                            <button className="btn btn-outline-light me-2" type="submit">Search</button>
                             <button className="btn btn-outline-light" type="submit">Budget</button>
                         </form>
                     </div>
