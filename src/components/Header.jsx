@@ -28,7 +28,7 @@ export default function Header() {
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-light me-2" type="submit">Search</button>
-                            <button className="btn btn-outline-light" type="button" onClick={() => setBudgetMode(!budgetMode)}>Budget</button>
+                            <button className="btn btn-outline-light" type="button" onClick={() => setBudgetMode(!budgetMode)}>{budgetMode ? "Budget" : "Standard"}</button>
                         </form>
                     </div>
                 </div>
