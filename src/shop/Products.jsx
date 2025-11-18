@@ -248,6 +248,7 @@ export default function Products() {
             }
         }
     ]
+    const { budgetMode } = useContext(Budget);
 
     return (
         <>
