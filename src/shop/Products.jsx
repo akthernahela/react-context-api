@@ -254,6 +254,8 @@ export default function Products() {
         if (budgetMode) {
             const filterProduct = products.filter(product => product.price <= 30);
             setLowCost(filterProduct);
+        } else {
+            setLowCost(products);
         }
     }, [budgetMode])
     return (
